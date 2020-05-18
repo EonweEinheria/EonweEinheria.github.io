@@ -149,7 +149,7 @@ and (max-device-width : 480px){
     border-radius: 6px;
     font-family: 'Fira Sans', sans-serif;
     backdrop-filter: blur(10px);
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     width: 25%;
     height: 11em;
     margin: 0em .5em;
