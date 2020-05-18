@@ -10,11 +10,6 @@
 	<body>
 		<div class="container">
 
-			<div id="search">
-        	<input id="search-field" type="text" value="" placeholder="search" name="search-field"
-         	onkeypress="return search(event)" />
-    		</div>
-
 			<div class="favorites">
 
 				<div class="favorites-list">
@@ -69,50 +64,5 @@
 			</div>
 
 		</div>
-
-		<script>
-        // Get current time and format
-        function getTime() {
-            let date = new Date(),
-                min = date.getMinutes(),
-                //sec = date.getSeconds(),
-                hour = date.getHours();
-            return "" +
-                (hour < 10 ? ("0" + hour) : hour) + ":" +
-                (min < 10 ? ("0" + min) : min);// + ":" + 
-            //(sec < 10 ? ("0" + sec) : sec);
-        }
-
-        // Search on enter key event
-        function search(e) {
-            if (e.keyCode == 13) {
-                var val = document.getElementById("search-field").value;
-                document.getElementById('search-field').value = '';
-                switch (val) {
-                    case "steam":
-                    case " steam":
-                        window.location.href = "steam:";
-                        break;
-                    case "photos":
-                    case " photos":
-                    case "photo":
-                    case " photo":
-                        window.location.href = "https://photos.google.com/";
-                        break;
-                    case "wikipedia":
-                    case " wikipedia":
-                    case "wiki":
-                    case " wiki":
-                        window.location.href = "https://en.wikipedia.org/";
-                        break;
-                    default:
-                        if (val[0] == " ") {
-                            window.location.href = "https://google.com/?q=" + val.substring(1);
-                        } else {
-                            window.location.href = "https://google.com/?q=" + val;
-                        }
-                }
-            }
-        </script>
 	</body>
 </html>
