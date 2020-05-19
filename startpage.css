@@ -177,5 +177,5 @@ and (max-device-width : 480px){
     margin: .5em 0em;
 }
 .bookmark:hover {
-    color: #ff1ad9 80%;
+    color: #ff1ad9;
 }
