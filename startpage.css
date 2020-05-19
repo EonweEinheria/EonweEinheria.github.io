@@ -30,7 +30,7 @@ h1.hello, h1.timing {
    margin-bottom: 10px;
    font-size: 3.2rem;
    /* color: #ff9400 */
-   background-image: linear-gradient(to bottom, #ff9400, #ff1ad9);
+   background-image: linear-gradient(to bottom, #ffe900, #ff9400, #ff0039, #ff1ad9);
    background-clip: text;
    -webkit-background-clip: text;
    color: transparent;
@@ -167,7 +167,7 @@ and (max-device-width : 480px){
     font-size: 1.3rem;
     font-weight: 500;
     /* color: #ff9400; */
-    background-image: linear-gradient(to bottom, #ff9400, #ff1ad9);
+    background-image: linear-gradient(to bottom, #ffe900, #ff9400, #ff0039, #ff1ad9);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
