@@ -32,7 +32,9 @@ h1.hello, h1.timing {
    /* color: #ff9400 */
    background-image: linear-gradient(to bottom, #ff9400, #ff1ad9);
    background-clip: text;
+   -webkit-background-clip: text;
    color: transparent;
+   -webkit-text-fill-color: transparent;
 }
 #search {
     width: 63.5%;
@@ -167,7 +169,9 @@ and (max-device-width : 480px){
     /* color: #ff9400; */
     background-image: linear-gradient(to bottom, #ff9400, #ff1ad9);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
+    -webkit-text-fill-color: transparent;
     margin: 0em 0em .6em 0em;
 }
 .bookmark {
