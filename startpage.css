@@ -29,8 +29,7 @@ h1.hello {
 h1.hello, h1.timing {
    margin-bottom: 10px;
    font-size: 3.2rem;
-   color: linear-gradient(to bottom, #ff9400, #ff0039, #ff1ad9);
-   /* color: #ff9400 */
+   color: #ff9400
 }
 #search {
     width: 63.5%;
@@ -162,7 +161,7 @@ and (max-device-width : 480px){
 .bookmark-title {
     font-size: 1.3rem;
     font-weight: 500;
-    color: linear-gradient(to bottom, #ff9400, #ff0039, #ff1ad9);
+    color: #ff9400;
     margin: 0em 0em .6em 0em;
 }
 .bookmark {
@@ -172,5 +171,5 @@ and (max-device-width : 480px){
     margin: .5em 0em;
 }
 .bookmark:hover {
-    color: #9400ff;
+    color: #ff9400;
 }
