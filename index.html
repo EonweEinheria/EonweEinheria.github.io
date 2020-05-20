@@ -22,6 +22,7 @@
     </div>
     <div class="container">
 	   <h1 class="hello">Hello!</h1>
+       <h1> <label id="hello"></label> </h1>
     <div id="search">
         <input id="search-field" type="text" value="" placeholder="Search Google" name="search-field"
             onkeypress="return search(event)" />
@@ -196,6 +197,23 @@
             document.getElementById('search-mobile').style.display = 'flex';
             document.getElementById('hide-mobile').style.display = 'none';
         }
+
+        // make time of day greeing
+        var myDate = new Date();
+        var hrs = myDate.getHours();
+        var greet;
+        if (hrs >= 5 && hrs < 8)
+            greet = 'You`re up early!';
+        else if (hrs >= 8 && hrs < 12)
+            greet = 'Good morning!';
+        else if (hrs >= 12 && hrs <= 17)
+            greet = 'Good afternoon!';
+        else if (hrs >= 17 && hrs < 23)
+            greet = 'Good evening!';
+        else 
+            greet = 'It`s late, get some rest.';
+
+        document.getElementById('hello').innerHTML = '<b>' + greet + '';
     </script>
 </body>
 
