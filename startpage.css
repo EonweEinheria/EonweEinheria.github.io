@@ -164,6 +164,7 @@ and (max-device-width : 480px){
 .bookmark-inner-container {
     height: 80%;
     vertical-align: top;
+    margin: 0em 0em 10em
 }
 .bookmark-title {
     font-size: 1.3rem;
