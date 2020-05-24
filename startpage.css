@@ -153,13 +153,13 @@ and (max-device-width : 480px){
     padding: 1em;
     background-color: rgba(56, 56, 56, 0.7);
     border-radius: 6px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     backdrop-filter: blur(10px);
     font-size: 0.9rem;
     font-weight: 600;
     width: 25%;
     height: 11em;
-    margin: 20em .5em;
+    margin: 0em .5em;
 }
 .bookmark-inner-container {
     height: 80%;
