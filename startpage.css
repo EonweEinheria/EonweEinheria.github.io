@@ -157,7 +157,7 @@ and (max-device-width : 480px){
     backdrop-filter: blur(10px);
     font-size: 0.9rem;
     width: 25%;
-    height: 12em;
+    height: 11.5em;
     margin: 0em .5em;
 }
 .bookmark-inner-container {
