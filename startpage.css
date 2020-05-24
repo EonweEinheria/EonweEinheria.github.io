@@ -155,7 +155,7 @@ and (max-device-width : 480px){
     border-radius: 6px;
     font-family: 'Nunito', sans-serif;
     backdrop-filter: blur(10px);
-    font-size: 1em;
+    font-size: 0.9em;
     width: 25%;
     height: 11em;
     margin: 0em .5em;
