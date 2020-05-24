@@ -174,7 +174,7 @@ and (max-device-width : 480px){
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    margin: 0em 0em .3em 0em;
+    margin: 0em 0em .6em 0em;
 }
 .bookmark {
     text-decoration: none;
