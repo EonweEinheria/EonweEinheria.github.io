@@ -159,7 +159,7 @@ and (max-device-width : 480px){
     font-weight: 600;
     width: 25%;
     height: 11em;
-    margin: 0em .5em;
+    margin: 1em .5em;
 }
 .bookmark-inner-container {
     height: 80%;
