@@ -166,7 +166,7 @@ and (max-device-width : 480px){
     vertical-align: top;
 }
 .bookmark-title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     /* color: #ff9400; */
     background-image: linear-gradient(to bottom, #ff9400, #ff1ad9);
@@ -174,7 +174,7 @@ and (max-device-width : 480px){
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    margin: 0em 0em .6em 0em;
+    margin: 0em 0em .3em 0em;
 }
 .bookmark {
     text-decoration: none;
