@@ -150,7 +150,7 @@ and (max-device-width : 480px){
 }
 
 .bookmark-set{
-    padding: 100em;
+    padding: 1em;
     background-color: rgba(56, 56, 56, 0.7);
     border-radius: 6px;
     font-family: 'Fira Sans', sans-serif;
