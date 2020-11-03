@@ -156,6 +156,7 @@ and (max-device-width : 480px){
     font-family: 'Nunito', sans-serif;
     backdrop-filter: blur(10px);
     font-size: 0.9rem;
+    font-weight: bold;
     line-height: 1.2;
     width: 25%;
     height: 11em;
